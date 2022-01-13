@@ -1,5 +1,5 @@
 {
-  "name": "stuff-mywebsite-nextjs",
+  "name": "simple-story",
   "private": true,
   "scripts": {
     "dev": "next dev",

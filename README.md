@@ -1,1 +1,1 @@
-# stuff-mywebsite-nextjs
+# simple-story

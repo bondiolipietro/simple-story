@@ -1,0 +1,39 @@
+/* Main */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 64px;
+}
+
+/* Generic */
+
+.navbar .item {
+  height: 100%;
+  width: 64px;
+  padding: 0 8px;
+}
+
+/* Components */
+
+.nav_logo {
+  width: 64px;
+  margin: 0 0 0 8px;
+}
+
+.nav_user {
+  width: 64px;
+  margin: 0 8px 0 0;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.nav_menu .item {
+  margin: 0 8px;
+}

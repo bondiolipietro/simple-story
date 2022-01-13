@@ -1,17 +1,16 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Hello world</title>
+        <title>Simple Story</title>
         <meta name="description" content="Just a simple page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>Hello world</main>
+      <main className={`flex_center`}>Simple Story</main>
     </div>
   );
 };
