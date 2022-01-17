@@ -1,6 +1,7 @@
 import type { GetStaticPropsContext, NextPage } from 'next';
 import Head from 'next/head';
-import { StoryService, Story } from '../../services/StoryService';
+import { StoryService } from '../../services/StoryService';
+import { Story } from '../../models/Story';
 const storyService = new StoryService();
 
 type Props = {
